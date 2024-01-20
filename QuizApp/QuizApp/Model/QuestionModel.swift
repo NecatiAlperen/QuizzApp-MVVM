@@ -18,7 +18,7 @@ struct ResponseModel : Codable {
 }
 
 struct QuestionModel: Codable {
-    var correct_answer : String
+    var correct_answer : String?
     var option_1 : String?
     var option_2 : String?
     var option_3 : String?
